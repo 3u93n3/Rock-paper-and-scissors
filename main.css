@@ -1,0 +1,109 @@
+body{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+
+#wait{    
+    width: 10%;
+    position: fixed;
+    top: 10%;
+    left: 45%;
+    display: none;
+}
+
+#name{
+    color: gray;
+    font-size: 2em;
+    text-align: center;
+}
+
+.card{    
+    text-align: center;
+    line-height: 50px;
+    margin: 2px;
+    flex: 1;
+    font-size: 1.2em;    
+}
+
+.info{
+    background-color: rgb(0, 46, 6);
+    color: rgb(152, 247, 133);
+}
+
+.button{
+    cursor: pointer;
+    border: 5px solid silver;
+    background-color: gray;
+    color: white;
+    border-radius: 15px;    
+}
+
+.button:hover, .button:active{
+    background-color: #555
+}
+
+#end{
+    left: 5%;
+    width: 90%;
+    height: 60%;
+    position: absolute;
+    background-color: rgba(200,200,200, 0.8);
+    box-shadow: 0 0 5px silver;
+    text-align: center;
+    display: none;
+}
+
+#end button{
+    width: 80%;
+    height: 50px;
+    font-size: 2em;
+    margin: 20px 0;    
+}
+
+#endP{
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0;
+}
+
+#logForm{
+    display: flex;
+    flex-direction: column;
+}
+
+table,  th, td{
+    border: 1px solid silver;
+    border-collapse: collapse;
+}
+
+table{
+    width: 80%;
+    margin: 10px auto;
+}
+
+ th, td{
+   width: 20%;
+   text-align: center;
+   padding: 5px;
+}
+
+#logRounds, #user, #loogSubmit, #uName p, #logRnd p{
+    flex: 1;
+    text-align: center;    
+    font-size: 2em;
+    padding: 5px;
+    margin: 2px;;
+}
+
+#game, #gameTitle, #results, #cards, #uName, #logRnd{
+    display: flex;
+}
+
